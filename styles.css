@@ -1,0 +1,454 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #747474;
+    position: relative;
+    
+}
+.navigateur{
+  
+    display: flex;
+    width: 1350px;
+    border: 1px solid black;
+ 
+    
+    justify-content: space-between;
+    box-shadow: 0px 10px 0px -7px black;
+    margin-bottom: 30px;
+   
+
+}
+
+.logo{
+    height: 50px;
+    width: 500px;
+    cursor: pointer;
+
+    
+   
+}
+.logo img{
+    height: 100%;
+    width: 500px;
+    object-fit: cover;
+
+}
+.nav-option{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    cursor: pointer;
+
+   
+
+}
+
+.introduction{
+    
+    height: 300px;
+  
+    display: block;
+
+}
+
+.slogan{
+    height: 25%;
+    
+}
+.presentation{
+    display: flex;
+    height: 75% ;
+   
+}
+
+.box1{
+    height: 250px;
+    width: 50%;
+   
+    
+}
+.box1 p{
+    display: flex;
+   
+     font-size: 20px;  
+     padding: 70px;
+     
+}
+.box2 p{
+    display: flex;
+    
+     font-size: 20px;  
+     padding: 70px;
+
+}
+.box2{
+   
+    height: 250px;
+    width: 50%;
+   
+}
+
+.type-services{
+
+    height: 700px;
+    
+    display: block;
+    margin-top: 20px;
+
+}
+
+.client{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%px;
+    
+   
+    
+    
+}
+
+.client1{
+    height: 400px;
+    width: 300px;
+    
+    background-color: rgb(69, 179, 146);
+    border-radius: 20px;
+    margin-left: 120px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding:15px
+   
+    
+}
+
+.card{
+    height: 70px;
+    width: 100%;
+    display: block;
+}
+
+
+
+.text{
+  
+    font-family:Arial, Helvetica, sans-serif
+}
+.country{
+    display: block;
+    width: 110px;
+    margin-top: 110px;
+   
+  
+    background-color:rgb(69, 179, 146);
+}
+
+.dn{
+    color:white ;
+ background-color: rgb(69, 179, 146);
+ border: transparent;
+ font-size: 20px;
+}
+
+
+.client2{
+    color:white ;
+
+    height: 400px;
+    width: 300px;   
+   
+    background-color: blue;
+    border-radius: 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    
+    
+}
+
+  
+
+.dd{
+    color:white ;
+   background-color: blue;
+ border: transparent;
+ font-size: 20px;
+}
+
+
+
+.client3{
+    height: 400px;
+    width: 300px; 
+   
+    background-color: black;
+    border-radius: 20px;
+    margin-right: 120px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+   
+}
+.dt{
+    color:white ;
+   background-color: black;
+ border: transparent;
+ font-size: 20px;
+
+}
+
+.certificat{
+    height: 270px;
+   
+    
+    display: flex;
+
+
+}
+
+.text-certicat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color:rgb(69, 179, 146) ;
+    height: 270px;
+    width: 25%;
+   
+    padding-left: 20px;
+}
+
+.reference{
+    
+    height: 250px;
+    width: 75%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: gray;
+  
+
+}
+.reference a{
+    text-decoration: none;
+    color: gray;
+}
+.ligne1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+
+
+.ligne2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+.plateform{
+
+height: 500px;
+background-color: rgb(181, 236, 220);
+display: flex;
+
+}
+.plateform-text{
+color: rgb(37, 77, 65);
+height: 500px;
+width: 40%;
+
+}
+
+.TTX{
+
+height: 200px;
+width: 100%;
+
+}
+
+.TTX-icone{
+
+height: 300px;
+width: 100%;
+}
+
+.TTX-icone img{
+height: 280px;
+width: 100%;
+object-fit: cover;
+
+}
+
+.plateforme-icone{
+height: 500px;
+width: 60%;
+display: flex;
+
+
+}
+.icone-gauche{
+display: block;
+align-items: center;
+justify-content: space-between;
+
+height: 500px;
+width: 50%;
+
+
+}
+.icone-droite{
+display: block;
+align-items: center;
+justify-content: space-between;
+
+height: 500px;
+width: 50%;
+
+
+}
+
+.icone1{
+margin: 10px;
+height: 220px;
+width: 150px;
+background-color: white;
+margin-left: 170px;
+margin-top: 50px;
+border-radius: 20px;
+
+}
+
+.icone2{
+
+align-items: center;
+justify-content: center;
+margin: 10px;
+height: 200px;
+width: 150px;
+background-color: white;
+margin-left: 170px;
+margin-top: 10px;
+border-radius: 20px;
+
+}
+.icone3{
+margin: 10px;
+height: 220px;
+width: 150px;
+background-color: white;
+margin-right: 150px;
+margin-bottom: 15px;
+
+border-radius: 20px;
+}
+
+.icone4{
+margin: 10px;
+height: 220px;
+width: 150px;
+background-color: white;
+margin-right: 150px;
+margin-bottom: 15px;
+border-radius: 20px;
+}
+
+.liste-pays{
+height: 400px;
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-right: 20px;
+
+}
+
+.pays1{
+height: 320px;
+width: 310px;
+
+margin: 40px;
+margin-left: 10px;
+
+
+
+}
+
+.pays-photo{
+height: 280px;
+width: 100%;
+object-fit: cover;
+
+
+}
+
+.btn-pays{ 
+cursor: pointer;
+height: 40px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: gray;
+padding: 2px;
+
+}
+
+
+
+.btn{
+margin-right: 15px;
+height: 30px;
+width: 125px;
+border-radius: 10px;
+background-color: blue;
+color: white;
+cursor: pointer;
+}
+
+.pays2{
+height: 320px;
+width: 310px;
+border: 1px solid blueviolet;
+margin-right: 900px;
+
+}
+
+.interesting{
+font-size: 30px;
+color: black;
+
+}
+
+.btnn{
+height: 45px;
+width: 250px;
+border-radius: 7px;
+background-color: blue;
+color: white;
+cursor: pointer;
+
+}
+
+.Fin a {
+color: blue;
+}
+
+.pays1 a{
+color: gray;
+text-decoration: none;
+}
